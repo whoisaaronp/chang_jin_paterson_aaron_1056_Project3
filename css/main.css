@@ -1,0 +1,75 @@
+@charset"UTF-8";
+/*CSS Doc*/
+
+/* comments */
+
+.hidden
+{
+	display: none;
+}
+
+/* Scaffold Colors in grays dark to light below. */
+/* #A9A9A9 */ 
+/* #696969 */
+/* #282828 */
+/* #DCDCDC */
+
+/* This will fill all my content */
+#topInfo
+{	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 1440px;
+	height: 54px;
+	margin: 0 auto;
+	background-color: red;
+}
+
+.holder
+{
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+
+}
+#contactTop
+{
+	width: 300px;
+	height: 54px;
+	margin-right: 500px;
+	background-color: SlateBlue;
+}
+
+#socialTop
+{
+	width: 300px;
+	height: 54px;
+	background-color: SlateBlue;
+
+}
+
+/* put DIVs the the siteContianer */
+#siteContainer
+{
+	width: 1200px;
+	height: 100vw;
+	margin: 0 auto;
+	background-color: pink;
+}
+
+
+#mainHeader
+{
+	display: flex;
+	flex-direction: row;
+}
+
+/*This is a flex for logo */
+#logo
+{	
+	background-color: #d02d2d;
+	width: 250px;
+	height: 100px;
+
+
+}
