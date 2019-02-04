@@ -1,0 +1,400 @@
+@charset"UTF-8";
+/*CSS Doc*/
+
+/* comments */
+
+.hidden
+{
+	display: none;
+}
+
+/* Scaffold Colors in grays dark to light below. */
+/* #A9A9A9 */ 
+/* #696969 */
+/* #282828 */
+/* #DCDCDC */
+
+
+p 
+{
+	line-height: 28px;
+}
+
+
+/* This will fill all my content */
+#topInfo
+{	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 1440px;
+	height: 54px;
+	margin: 0 auto;
+	background-color: #a9a9a9;
+}
+
+.holder
+{
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+
+}
+#contactTop
+{
+	width: 300px;
+	height: 27px;
+	color: #fff;
+	margin-top: 12px;
+	margin-right: 500px;
+	background-color: #696969;
+}
+
+#socialTop
+{
+	width: 300px;
+	height: 27px;
+	color: #fff;
+	margin-top: 12px;
+	background-color: #696969;
+
+}
+
+/* put DIVs the the siteContianer */
+#siteContainer
+{
+	width: 1200px;
+	/*height: 100vw;*/
+	margin: 0 auto;
+	background-color: none;
+}
+
+
+#mainHeader
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 40px;
+}
+
+/*This is a flex for logo */
+#logo
+{	
+	background-color: #696969;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+
+}
+
+.navCon{
+	margin-left: auto;
+	height: 100px;
+	margin-bottom: 30px;
+}
+
+#mainNav
+{	
+	display:flex;
+	flex-direction: column;
+	margin-left: auto;
+	width: 742px;
+	height: 45px;
+	margin-top: 96px;
+	margin-bottom: 15px;
+	background-color: #696969;
+}
+
+#mainNav ul
+{
+	text-decoration: uppercase;
+	display: flex;
+	flex-direction: row;
+}
+
+/* hover for later */
+/*#mainNav ul li a
+{
+	display: block;
+	width: 100px;
+	color: #fff;
+	background-color: red;
+	margin-left: 20px;
+	text-align: center;
+	padding: 8px;
+	font-size: 16px;
+	border-radius: 7px;
+	background: #ff3019;
+
+}
+*/
+
+#featuredCon
+{
+	display: flex;
+	flex-direction; row;
+	position: absolute;
+	margin-top: 370px;
+}
+
+#featuredImage
+
+{	
+	height: 510px;
+	width: 732px;
+	background-color: #282828;
+	margin-right: 60px;
+}
+
+#featuredImageDesc
+{
+	width: 450px;
+	height: 300px;
+	margin-top: 109px;
+	background-color: #a9a9a9;
+
+}	
+
+.space
+{
+	margin-bottom: 340px;
+}
+
+.space2
+{
+	margin-bottom: 1400px;
+}
+
+/* project section container */
+
+
+#projectSection
+
+{	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;
+	height: 240px;
+	/*background-color: red;*/
+}
+
+#projectSection h1
+{	
+	width: 212px;
+	height: 65px;
+	background-color: green;
+	margin: 0 auto;
+	margin-bottom: 38px;
+}
+
+#projectSection p
+{
+	width: 852px;
+	height: 60px;
+	color: #000;
+	font-size: 16px;
+	text-align: center;
+	background-color: green;
+	margin: 0 auto;
+	
+}
+
+/* two boxes on each side */
+.projectCon
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 120px;	
+}
+
+.projectCon h2 
+{
+	margin-top: 60px;
+	margin-bottom: 35px;
+	text-align: center;
+}
+
+
+/* section container */
+#projectImage1, #projectImage2 
+{	
+
+	width: 500px;
+	height: 300px;
+	margin: 0 auto;
+	background-color: orange;
+}
+
+.projectTect
+{	width: 325px;
+	text-align: center;
+}
+
+/* section buttons */
+.projBut{
+	background-color: #dcdcdc;
+	font-weight: bold;
+	display: block;
+	width: 170px;
+	padding: 15px;
+	text-align: center;
+	margin-top: 10px;
+	border-radius: 25px;
+	color: #fff;
+	
+}
+
+.projBut:Hover{
+	background-color: #696969;
+
+
+}
+
+/*.fundingSection
+{
+display: flex;
+flex-direction: row;
+height: 500px;
+margin-bottom: 20px;
+background-color: #a9a9a9; 
+}
+*/
+
+/*.fundBut
+{
+	background-color: #dcdcdc;
+	font-weight: bold;
+	display: block;
+	width: 170px;
+	padding: 15px;
+	text-align: center;
+	margin-top: 10px;
+	border-radius: 25px;
+	color: #fff;
+	
+}
+
+.fundBut:Hover{
+	background-color: #696969;
+
+
+}
+
+#fundingCon
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+	margin-top:150px;
+}
+
+#fundingTitle
+{
+	width: 250px;
+	height: 36px;
+	margin-bottom: 30px;
+	background-color: #696969;
+
+}
+
+.fundingText
+{
+	width: 600px;
+	height: 50px;
+	background-color: #696969;
+	margin-bottom: 40px;
+}
+*/
+#mainFooter{
+	margin-top: 140px;
+	display: flex;
+	flex-direction: row;
+	background-color: #696969;
+	height: 545px;
+}
+
+#footerInfo
+{	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 1440px;
+	height: 54px;
+	background-color: #a9a9a9;
+	margin-right: 600px;
+}
+
+#contactPage
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 120px;	
+}
+
+#bodyTitle 
+{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 656px;
+	height: 105px;
+	background-color: red;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
+#googleMap
+{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 0 auto;
+	height: 600px;
+	background-color: blue;
+	z-index: -1;
+}
+
+#contactForm
+{
+	display: flex;
+    flex-direction: row;
+    width: 910px;
+    /* height: 866px; */
+    margin: 0 auto;
+    background-color: red;
+    position: relative;
+    justify-content: space-evenly; 
+    z-index: 11;
+}
+
+#contactForm h1
+{
+	display: flex;
+	background-color: green;
+	width: 266px;
+	height: 279px;
+	margin: 50px;
+
+}
+
+#contactForm h2
+{
+	display: flex;
+	background-color: green;
+	width: 428px;
+	height: 736px;
+	margin: 50px;
+}
+
+
+
+
+
+
+
+
