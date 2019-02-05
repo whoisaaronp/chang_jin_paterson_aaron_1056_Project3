@@ -6,4 +6,8 @@ created psd for contact page
 
 created contact page
 
+created CSS
+
+as well checked doc outline and validator 
+
 
