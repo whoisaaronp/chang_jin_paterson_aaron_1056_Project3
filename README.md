@@ -6,7 +6,30 @@ wireframe / skin / htmlCSS3
 <!-- Design & Devs: Aaron and Jin -->
 <!--  Project 1056 3 -->
 
+
+27 - 28 JANUARY
 Task:
 1. Design wireframe
 2. Design skin based on wireframe
 3. Build site in HTML & CSS3
+
+
+1 FEBRUARY
+1. Home Page Build
+
+
+FEB 2
+Aaron's log
+Progressing thorugh I'm getting worried about my very high margin-top amounts in order to make this fit. 
+
+The news feed section I'm excite to feature 'Embedded Comments' via Facebook 
+
+Embedded comments are a simple way to put public post comments - by a Page or a person on Facebook - into the content of your web site or web page. Only public comments from Facebook Pages and profiles can be embedded.
+
+
+For the twitter feed I'll just has a similar feed with their latest updates.
+i.e. news / retweets / and more.
+
+validated the HTML
+
+
